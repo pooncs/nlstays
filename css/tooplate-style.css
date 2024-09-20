@@ -235,9 +235,10 @@ footer {
 }
 
 .nav-wrapper {
-  margin: auto;
-  text-align: center;
-  width: 50%;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media(max-width: 768px) {
@@ -255,7 +256,6 @@ footer {
 /* Navbar links */
 #navbar a {
   float: left;
-  display: block;
   color: #ffffff;
   text-align: center;
   padding: 14px;
